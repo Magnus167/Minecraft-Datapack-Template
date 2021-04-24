@@ -30,7 +30,7 @@ me to continue updating and improving this datapack tutorial! *(Perhaps in the*
 
 <a href="https://www.buymeacoffee.com/Fackles"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=Fackles&button_colour=7808b5&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"></a>
 
-Alternatively you can support my other joint projects like [**Ragnarok Rebirth**](https://ragnarok-rebirth.com)!
+Alternatively you can support my other joint projects like **Ragnarok Rebirth**!
 
 #### What is Ragnarok Rebirth?
 *(Shameless plug.. but I kind of have to ;P )*
@@ -40,11 +40,11 @@ Minecraft Server with optional Quests and other RPG features that are being
 added over time. **This server is only on Minecraft Java Edition**, but we hope
 to support Bedrock players in the future!
 
-[**Website:** https://ragnarok-rebirth.com](https://ragnarok-rebirth.com)
+**Website:** [https://ragnarok-rebirth.com](https://ragnarok-rebirth.com)
 
 **Server-ip:** `play.ragnarok-rebirth.com`
 
-[**Discord:** https://discord.gg/hJ3zEaP](https://discord.gg/hJ3zEaP)
+**Discord:** [https://discord.gg/hJ3zEaP](https://discord.gg/hJ3zEaP)
 
 ---
 ## Initialisation
