@@ -2,7 +2,7 @@
 # Minecraft JE Datapack Guide
 ---
 #### What is this datapack for?
-This datapack template for Minecraft Java Edition will eventually server as a
+This datapack template for Minecraft Java Edition will eventually serve as a
 full tutorial for new datapack developers with the intention to help teach more
 players how to build datapacks!
 
