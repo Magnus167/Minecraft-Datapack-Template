@@ -17,6 +17,25 @@ This file will lay out the basics needed to understand how this *(and generally*
 *others)* datapack works. More detailed `README` files will appear within
 different folders
 
+#### Project Roadmap
+This table will list the order of every folder/feature I plan to go through, since
+I am learning both these features and how to use GitHub as I go.
+*If you would like to contribute contact me!*
+
+| Topic/Feature | Overview | Plan |
+|-|-|-|
+| Advancements | A way for players to add their own custom achievements for friends/players to complete | - [x] Create Root Advancements - [] Update README.md for Advancements - [] Create further examples |
+| Functions | A way for players to run 'scripts' in-game using in-game console commands without the need for a Command Block, repetitively typing in the same command and so on. Very useful if you run the same set of commands frequently | - [] Create basic functions - [] Create function chains - [] Produce README.md explaining in the above examples - [] Create some Advancement examples utilizing Function Files |
+| Tags | TBD | TBD |
+| Loot Tables | TBD | TBD |
+| Predicates | TBD | TBD |
+| Recipes | TBD | TBD |
+| Structures | TBD | TBD |
+| Dimensions | TBD | TBD |
+| Dimension Types | TBD | TBD |
+| World Generation | TBD | TBD |
+| Item Modifiers | 1.17 Feature; Awaiting Release | TBD |
+
 **Useful links and Command Generators:**
 1. [Minecraft Fandom Wiki: Commands](https://minecraft.fandom.com/wiki/Commands "A place to start for detailed descriptions of command and console use")
 2. [Misode Generator](https://misode.github.io "Loot tables, Advancements, Custom Items/Mobs etc.")
@@ -98,8 +117,8 @@ in the in-game or server console.
 ---
 ### Advancements
 ---
-Advancements is the Java Edition equivalent to Achievements/Quests in game,
-which are usually set to be complete once but with a bit of trickery you can
+Advancements are the Java Edition equivalent of Achievements/Quests in game,
+which are usually set to be completed one time only but with a bit of trickery you can
 allow them to be repeatable!
 
 Advancements must be a `.json` file, otherwise it will not be read correctly
@@ -107,13 +126,13 @@ and thus the correct syntax must be used.
 
 Advancements can be granted/revoked using the below  in-game command example;
 ```
-/advancement <give/revoke> <player/selector> <projectname>:/folder/files
-      e.g. /advancement give DarkyyBoi minecraft:story/root
-            gives DarkyyBoi the "Minecraft" advancement for crafting a crafting
-            table
+/advancement <grant/revoke> <player/selector> <projectname>:/folder/files
 ```
 *Pressing TAB will autocomplete the command, giving a better idea on the*
 *options provided.*
+
+For  example `/advancement grant DarkyyBoy only minecraft:story/root` gives
+DarkyyBoy the "Minecraft" advancement for crafting a crafting table.
 
 [Minecraft Fandom Wiki: Advancements](https://minecraft.fandom.com/wiki/Advancement/JSON_format)
 
