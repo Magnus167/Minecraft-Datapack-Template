@@ -71,11 +71,12 @@ correctly!
 
 If the datapack does not load after an update of Minecraft, first check the
 `pack.mcmeta` file which tells the game what type of file it is reading. As of
-1.17 the `"pack_format:"` value must be `7`. This will change w/ future updates.
+1.17 the `"pack_format":` value must be `7`, for 1.16+ it is `6`. This will
+change w/ future updates.
 ```
 {
 	"pack": {
-		"pack_format": 7,
+		"pack_format": 6,
 		"description":
 	}
 }
@@ -92,8 +93,7 @@ file, get the Admin Team to sort that out for you ;)
 
 Datapacks will either load on a world or server restart or you can manually load in
 a datapack after placing it in the correct folder using the `/datapack` command
-in the in-game or server console
-
+in the in-game or server console.
 
 ---
 ### Advancements
@@ -109,7 +109,7 @@ Advancements can be granted/revoked using the below  in-game command example;
 ```
 /advancement <give/revoke> <player/selector> <projectname>:/folder/files
       e.g. /advancement give DarkyyBoi minecraft:story/root
-            gives DarkyyBoi the "Minecraft" advancment for crafting a crafting
+            gives DarkyyBoi the "Minecraft" advancement for crafting a crafting
             table
 ```
 *Pressing TAB will autocomplete the command, giving a better idea on the*
@@ -129,7 +129,7 @@ minecraft:
 To call a function, similar to targeting an Advancement you use the following
 in-game command;
 ```
-      /function minecraft:folder/file
+      /function namespace:folder/file
 ```
 These can also be scheduled to have a delay or even loop functions. However,
 scheduling a function will execute the commands as the server console so keep

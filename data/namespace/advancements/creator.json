@@ -1,23 +1,24 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca, as well as the misode generator",
     "display": {
         "title": {
-            "text": "Advancements 101",
-            "color": "white"
+            "text": "DarkyyBoy/Fackles",
+            "color": "light_purple"
         },
         "description": {
-            "text": "Have the tutorial datapack load correctly!",
+            "text": "Creator of Minecraft-Datapack-Template, and the Ragnarok Rebirth Datapack.",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:book"
+              "item": "minecraft:player_head",
+              "nbt": "{SkullOwner: \"DarkyyBoy\"}"
         },
-        "frame": "goal",
-        "show_toast": true,
+        "frame": "challenge",
+        "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
+    "parent": "namespace:root",
     "criteria": {
     "requirement": {
       "trigger": "minecraft:tick"
