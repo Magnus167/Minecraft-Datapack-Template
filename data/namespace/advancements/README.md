@@ -16,11 +16,11 @@ Advancements can be granted/revoked using the below  in-game command example;
 *Pressing TAB will autocomplete the command, giving a better idea on the*
 *options provided.*
 
-For  example `/advancement grant DarkyyBoy only namespace:creator` gives DarkyyBoi the
+For  example `/advancement grant DarkyyBoy only namespace:creator` gives DarkyyBoy the
 "DarkyyBoy/Fackles" advancement in the `\namespace\advancements\creator.json`
 file which I have set up to show I made this advancement tab:
 
-![Introductory Advancements](images\Adva101+Creator.png)
+![Introductory Advancements](https://raw.github.com/Fackles/Minecraft-Datapack-Template/main/images/Adva101+Creator.png)
 
 This is the beginning of what is called the "Advancement Tree", and has its own
 tab like the Vanilla Minecraft Advancements have. The icon and title of the tab
