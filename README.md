@@ -24,8 +24,8 @@ I am learning both these features and how to use GitHub as I go.
 
 | Topic/Feature | Overview | Plan |
 |-|-|-|
-| Advancements | A way for players to add their own custom achievements for friends/players to complete | - [x] Create Root Advancements - [] Update README.md for Advancements - [] Create further examples |
-| Functions | A way for players to run 'scripts' in-game using in-game console commands without the need for a Command Block, repetitively typing in the same command and so on. Very useful if you run the same set of commands frequently | - [] Create basic functions - [] Create function chains - [] Produce README.md explaining in the above examples - [] Create some Advancement examples utilizing Function Files |
+| Advancements | A way for players to add their own custom achievements for friends/players to complete | ✔️ Create Root Advancements 🔸 Update README.md for Advancements 🔸 Create further examples |
+| Functions | A way for players to run 'scripts' in-game using in-game console commands without the need for a Command Block, repetitively typing in the same command and so on. Very useful if you run the same set of commands frequently | 🔸 Create basic functions 🔸 Create function chains 🔸 Produce README.md explaining in the above examples 🔸 Create some Advancement examples utilizing Function Files |
 | Tags | TBD | TBD |
 | Loot Tables | TBD | TBD |
 | Predicates | TBD | TBD |
